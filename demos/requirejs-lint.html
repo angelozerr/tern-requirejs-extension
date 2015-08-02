@@ -105,7 +105,8 @@ overview.</p>
   //  if (err) throw new Error("Request for ecma5.json: " + err);
   var server = new CodeMirror.TernServer({defs: defs, plugins:{"requirejs": {}, "lint":{}, "requirejs-extension": {}}});
   server.server.addFile("module1.js", "define([], function () {return 10;});");
-
+  server.server.addFile("path/to/module2.js", "define([], function () {return true;});");
+  
   var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
     lineNumbers: true,
     mode: "javascript"
