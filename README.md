@@ -7,7 +7,7 @@
 
 Here a sample with Eclipse : 
 
-![requirejs lint](https://github.com/angelozerr/tern.java/wiki/images/EclipseIDE_RequirejsJSLintOnRequireModule.png)
+![RequireJS lint](https://github.com/angelozerr/tern-requirejs-extension/wiki/images/EclipseIDE_RequireJSLintOnRequireModule.png)
 
 See [here](https://github.com/angelozerr/tern.java/wiki/Tern-&-RequireJS-support) for more information about requirejs lint with Eclipse.
 
