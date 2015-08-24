@@ -30,9 +30,9 @@ CodeMirror.tern.addDef = function(def) {
   <script src="codemirror-javascript/addon/hint/tern/defs/browser.json.js"></script>
           
   <!-- Tern JS -->
-  <script src="../node_modules/acorn/dist/acorn.js"></script>
-  <script src="../node_modules/acorn/dist/acorn_loose.js"></script>
-  <script src="../node_modules/acorn/DIST/walk.js"></script>
+  <script src="../node_modules/tern/node_modules/acorn/dist/acorn.js"></script>
+  <script src="../node_modules/tern/node_modules/acorn/dist/acorn_loose.js"></script>
+  <script src="../node_modules/tern/node_modules/acorn/dist/walk.js"></script>
   <script src="../node_modules/tern/lib/signal.js"></script>
   <script src="../node_modules/tern/lib/tern.js"></script>
   <script src="../node_modules/tern/lib/def.js"></script>
@@ -76,7 +76,7 @@ CodeMirror.tern.addDef = function(def) {
 <article>
 <h2>Tern Lint Demo</h2>
 <form><textarea id="code" name="code">// Load modules and use them
-require([ 'module1', 'path/to/module2' ], function(module1ref, module2ref) {
+require([ 'XXXX', 'module1', 'path/to/module2' ], function(module1ref, module2ref) {
 	// do something with the loaded modules
 	var module1 = new module1ref(), module2 = new module2ref();
 	module2.getModule1N
