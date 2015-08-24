@@ -47,6 +47,7 @@ Here is a minimal example `.tern-project` configuration file:
 
 ### With WebBrowser (CodeMirror)
 
+See [demos/requirejs-lint.html](https://github.com/angelozerr/tern-requirejs-extension/blob/master/demos/requirejs-lint.html)
 
 ## Structure
 
